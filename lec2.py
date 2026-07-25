@@ -58,12 +58,51 @@
 # message= f"Hello, {full_name.title()}! How are you?"
 # print(message)                                   
 
-list=[1, "abc", "abd",1]
-list1= list.copy()
-rev= list1.reverse()
-if(list==rev):
-    print("list is palindrome ")
-else:
-    print("list is not a palindrome")
+# list=[1, "abc", "abd",1]
+# list1= list.copy()
+# rev= list1.reverse()
+# if(list==rev):
+#     print("list is palindrome ")
+# else:
+#     print("list is not a palindrome")
 
-print(list)
+# print(list)
+
+student_Id="F2024266193"
+membership=True
+book_borrowed=4
+fine=0
+
+check_studentId=input("Enter Id:")
+
+if(check_studentId[0]=="F"):
+
+    if(check_studentId==student_Id):
+        print("Id is valid")
+
+        if(membership==True):
+            print("Member")
+
+            if(book_borrowed < 5):
+             print("You are eligible for getting a new book")
+
+             if(fine == 0):
+                 print("No pending dues")   
+
+                 print("All conditions are statisfied and now you can get a new book")
+
+             else:
+                 print("Pay you previous pending dues")
+
+            else:
+                print("You are not eligible")
+
+        else: 
+             print("You are not member")
+
+    else:
+         print("enter id is not matched")
+
+else:
+        print("Id is invalid")
+        
