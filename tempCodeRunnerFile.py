@@ -1,2 +1,1 @@
-    # f2=open("practice.txt","w")
-    # dat=f2.write(new)
+print(np.random.rand(4,2))
