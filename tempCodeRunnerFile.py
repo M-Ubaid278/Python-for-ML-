@@ -1,1 +1,2 @@
-print(np.random.rand(4,2))
+
+print("Diagonal matrix:","\n",arr3)

@@ -108,8 +108,15 @@ import numpy as np
 # print(np.linspace(10,30,2))
 
 # print(np.random.rand(4,2))
-print(np.random.randn(4))
+# print(np.random.randn(4))
 
 # print(np.random.randint(10,30 ,(2,2)))
 
 # print(np.random.normal(4,2,(5)))
+
+pro=np.random.randint(10,30 ,(2,2))
+print(pro)
+print(pro.ndim)
+print(pro.size)
+print(pro.shape)
+print(pro.dtype)
