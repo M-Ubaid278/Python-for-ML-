@@ -1,2 +1,1 @@
-
-print("Diagonal matrix:","\n",arr3)
+plt.show()

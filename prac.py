@@ -114,9 +114,21 @@ import numpy as np
 
 # print(np.random.normal(4,2,(5)))
 
-pro=np.random.randint(10,30 ,(2,2))
-print(pro)
-print(pro.ndim)
-print(pro.size)
-print(pro.shape)
-print(pro.dtype)
+# pro=np.random.randint(10,30 ,(2,2))
+# print(pro)
+# print(pro.ndim)
+# print(pro.size)
+# print(pro.shape)
+# print(pro.dtype)
+
+# pages = [12, 15, 12, 18, 15, 21]
+
+
+
+# print(list(set(pages)))
+# print(list(dict.fromkeys(pages)))
+
+# data = ([10, 20], "ML")    
+x = [4, 2, 7, 2, 4, 9]
+
+print(set(x))
